@@ -33,5 +33,6 @@ class String
         "Rock beats scissors. Loser."
       end
     end
+    
   end
 end
