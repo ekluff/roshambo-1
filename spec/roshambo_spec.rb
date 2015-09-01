@@ -2,6 +2,7 @@ require('rspec')
 require('roshambo')
 
 describe('String#roshambo') do
+  
   it('generates true if object beats argument') do
     expect(("scissors").roshambo("paper")).to(eq("Scissors beat paper. You win!"))
   end
